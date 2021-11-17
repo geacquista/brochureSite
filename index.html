@@ -13,7 +13,7 @@
                 <div class="list">
                     <ul id="horizontal">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="Booje.pdf">Menu</a></li>
+                        <li><a href="Booje.pdf" target="_blank">Menu (pdf)</a></li>
                         <li><a href="stores.html">Stores</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -24,8 +24,21 @@
         </header>
 
 		<div id="main-wrapper">
-            <div id="content">shit</div>
-            <div id="menu"></div>
+            <div id="content">
+                <h1 id="header">Our Holiday Specials Are Finally Here!!!</h1>
+                <div id="text">
+                    <p>
+                       CafeBooje presents our famous holiday blend is back and better than ever. Now introducing our newest drinks! Come to your local CafeBooje to try it for yourself!
+                    </p>
+                </div>
+                <div id="has-img">
+                    <img src="bestCoffee.png" alt="best coffee around!">
+                </div>
+            </div>
+            <div id="menu">
+                <p style="font-size: 10px;margin:5px;padding:10px;text-align:center;width:80%">If this were a real website I would totally put an ad right here: </p>
+                <img src="add.jpg" alt="fake add!" style="width:100%;height:85%;cursor: pointer;" id="fake-ad">
+            </div>
 		</div>
 
         
@@ -33,23 +46,20 @@
 	</body>
     <footer id="footer">
         <div id="list-2">
-            <div id="col">
-                    <li>Home</li>
-                    <li>Menu</li>
-                    <li>Stores</li>
-            </div>
-            <div  id="col">
-                <ul>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </div> 
+            <div><a href="index.html" style="color: #0e0504;box-shadow: #0e0504 1px 0 2px;">Home</a></div>
+            <div><a href="Booje.pdf" target="_blank"  style="color: #0e0504;box-shadow: #0e0504 1px 0 2px;">Menu (pdf)</a></div>
+            <div><a href="stores.html"  style="color: #0e0504;box-shadow: #0e0504 1px 0 2px;">Stores</a></div>
+            <div><a href="about.html"  style="color: #0e0504;box-shadow: #0e0504 1px 0 2px;">About</a></div>
+            <div><a href="contact.html"  style="color: #0e0504;box-shadow: #0e0504 1px 0 2px;">Contact</a></div>
         </div>
-        <div id="footer-survey">If you would like to fill out our customer feedback form, click <a href="https://docs.google.com/forms/d/e/1FAIpQLSct6aMGhlrOzGXW24Rcixn34rgVoJpTDBf_GwXy623XSpkVCA/viewform?usp=sf_link">HERE!</a></div>
+        <div id="footer-survey">If you would like to fill out our customer feedback form, click<a href="https://docs.google.com/forms/d/e/1FAIpQLSct6aMGhlrOzGXW24Rcixn34rgVoJpTDBf_GwXy623XSpkVCA/viewform?usp=sf_link"> HERE!</a></div>
+
     </footer>
 
-    <script>
-       
+    <script type="text/javascript">
+        document.getElementById("fake-ad").onclick = function () {
+            location.href = "https://www.amazon.com";
+        };
     </script>
 
 </html>

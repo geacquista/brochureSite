@@ -1,3 +1,69 @@
-<body>
-    <a href = 'mailto:my@email?body="Yourbody"&subject="a subject".com'>SEND EMAIL TO my@email.com</a>
-    </body>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gabrielle Acquista</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css" />	
+	</head>
+	
+	<body>
+        <header>
+           <div id="title-content">
+                <div id="title">CafeBooje</div> 
+                <div class="list">
+                    <ul id="horizontal">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Booje.pdf" target="_blank">Menu (pdf)</a></li>
+                        <li><a href="stores.html">Stores</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+           </div>
+          
+        </header>
+
+		<div id="main-wrapper">
+            <div id="content">
+                <h1 id="header">Contact Us</h1>
+                <div id="text">
+                    <div style="float:right">
+                        <b>Call a number below to reach the specified store, or, </br> send our company an email!</b>
+                        <h2>BoojeCafe of MashPee, MA</h2>
+                            <b>Phone: </b> 123-456-7890 </br></br></br>
+                        <h2>BoojeCafe of Longmeadow, MA</h2>
+                            <b>Phone: </b> 122-444-7890
+                    </div>                    
+                </div>
+                <div id="has-img" style="box-shadow: #0e0504 1px 0 4px;margin-right:50px;margin:-50px;margin-right:100px;">
+                    <p style="font-size:26px;color:#4b1f0e;text-shadow: #efc3a4 1px 0 2px;">
+                        <a href = 'mailto:niniacqui@gmail.com?body="Yourbody"&subject="a subject".com'>SEND EMAIL TO boojecafe@goggle.com</a>
+                    </p>
+                </div>
+            </div>
+            <div id="menu">
+                <p style="font-size: 10px;margin:5px;padding:10px;text-align:center;width:80%">If this were a real website I would totally put an ad right here: </p>
+                <img src="add.jpg" alt="fake add!" style="width:100%;height:85%;cursor: pointer;" id="fake-ad">
+            </div>
+		</div>
+
+	</body>
+    <footer id="footer">
+        <div id="list-2">
+            <div><a href="index.html" style="color: #0e0504;box-shadow: #0e0504 1px 0 2px;">Home</a></div>
+            <div><a href="Booje.pdf" target="_blank"  style="color: #0e0504;box-shadow: #0e0504 1px 0 2px;">Menu (pdf)</a></div>
+            <div><a href="stores.html"  style="color: #0e0504;box-shadow: #0e0504 1px 0 2px;">Stores</a></div>
+            <div><a href="about.html"  style="color: #0e0504;box-shadow: #0e0504 1px 0 2px;">About</a></div>
+            <div><a href="contact.html"  style="color: #0e0504;box-shadow: #0e0504 1px 0 2px;">Contact</a></div>
+        </div>
+        <div id="footer-survey">If you would like to fill out our customer feedback form, click<a href="https://docs.google.com/forms/d/e/1FAIpQLSct6aMGhlrOzGXW24Rcixn34rgVoJpTDBf_GwXy623XSpkVCA/viewform?usp=sf_link"> HERE!</a></div>
+
+    </footer>
+
+    <script type="text/javascript">
+        document.getElementById("fake-ad").onclick = function () {
+            location.href = "https://www.amazon.com";
+        };
+    </script>
+
+</html>
